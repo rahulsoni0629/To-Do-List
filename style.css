@@ -3,19 +3,19 @@
     border-radius: 20px;
     border-color: black;
     position: auto;
-    margin-left: 50%;
+    margin: auto;
     height: fit-content;
     width: fit-content;
     padding: 20px;
     align-items: center;
 }
 .delete{
-    margin-left: 20px;
+    margin-left: 100px;
     margin-bottom: 10px;
     color: white;
     border-radius: 5px;
     box-shadow: 2px;
-    height: 40px;
-    background-color: black;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.748);
     
 }
