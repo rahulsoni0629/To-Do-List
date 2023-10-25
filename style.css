@@ -1,0 +1,21 @@
+#box{
+    background-color: rgb(5, 249, 249);
+    border-radius: 20px;
+    border-color: black;
+    position: auto;
+    margin-left: 50%;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    align-items: center;
+}
+.delete{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px;
+    height: 40px;
+    background-color: black;
+    
+}
