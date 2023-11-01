@@ -1,21 +1,56 @@
 #box{
+    
     background-color: rgb(5, 249, 249);
     border-radius: 20px;
-    border-color: black;
-    position: auto;
     margin: auto;
+    margin-top: 50px;
     height: fit-content;
-    width: fit-content;
+    width: 400px;
     padding: 20px;
-    align-items: center;
 }
+
 .delete{
-    margin-left: 100px;
-    margin-bottom: 10px;
+    position: absolute;
+    right:0;
     color: white;
+    border-radius: 2px;
+    box-shadow: inset;
+    height: 22px;
+    background-color: rgba(67, 65, 65, 0.977);
+    
+}
+.list-box{
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.heading{
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+}
+.content input{
+    margin-bottom: 10px;
+    height: 20px;
     border-radius: 5px;
-    box-shadow: 2px;
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.748);
+    border: 1px solid gold;
+    
+}
+.content input::placeholder{
+    text-align: center;
+    
+}
+.content button{
+    height: 25px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
     
 }
