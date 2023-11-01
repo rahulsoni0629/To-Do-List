@@ -33,12 +33,13 @@
 }
 .heading{
     margin: auto;
-    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
     font-weight: 600;
 }
 .content input{
     margin-bottom: 10px;
-    height: 20px;
+    height: 25px;
     border-radius: 5px;
     border: 1px solid gold;
     
@@ -47,10 +48,15 @@
     text-align: center;
     
 }
-.content button{
+.content input:focus{
+  outline:none;
+}
+.task-btn{
+    background-color: transparent;
+    font-weight: 600;
     height: 25px;
     border-radius: 5px;
-    width: 50%;
+    width: 30%;
     margin: auto;
     
 }
